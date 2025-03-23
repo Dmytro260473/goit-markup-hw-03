@@ -212,6 +212,7 @@ h2 {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+  margin-bottom: 8px;
 }
 
 .advantages-container {
@@ -266,6 +267,10 @@ h2 {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+}
+
+.studio {
+  margin-bottom: 72px;
 }
 
 .card {
