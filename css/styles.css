@@ -193,15 +193,6 @@ h2 {
   line-height: 1.2;
   color: #2e2f42;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
-}
-
-.advantages-box {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -213,6 +204,11 @@ h2 {
   clip: rect(0 0 0 0);
   overflow: hidden;
   margin-bottom: 8px;
+}
+
+.advantages-box {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .advantages-container {
