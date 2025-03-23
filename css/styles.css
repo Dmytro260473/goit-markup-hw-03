@@ -47,7 +47,7 @@ img {
 
 .container {
   max-width: 1158px;
-  padding: 0 15px;
+  padding: 0 15px 0 15px;
   margin: 0 auto;
 }
 
@@ -62,16 +62,11 @@ button {
 .header-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding-top: 24px;
-  padding-bottom: 23px;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-navigation {
   display: flex;
   gap: 76px;
-  align-items: center;
 }
 
 .page-nav {
@@ -95,6 +90,7 @@ button {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  margin-right: 76px;
 }
 
 .logo-accent {
@@ -174,6 +170,7 @@ h2 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  border-radius: 4px;
   min-width: 169px;
   min-height: 56px;
   display: block;
@@ -225,12 +222,13 @@ h2 {
 }
 
 .hero-section {
-  color: #2e2f42;
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  min-width: 162px;
+  margin: 0 auto;
+  margin-bottom: 72px;
 }
 
 .section-team {
@@ -266,10 +264,9 @@ h2 {
 .card {
   background-color: #ffffff;
   border: none;
-  padding-bottom: 32px;
   align-items: center;
-  border-radius: 0 0 4px 4px;
   flex-basis: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
 }
 
 .card-text {
